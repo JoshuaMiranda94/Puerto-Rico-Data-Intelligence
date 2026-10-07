@@ -1,0 +1,12 @@
+# Rename this file to .gitignore after upload if your browser upload omits hidden files.
+
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.sqlite
+data/raw/*.csv
+data/processed/*.csv
+data/exports/*.csv
+reports/data_quality_report.json
+.env
